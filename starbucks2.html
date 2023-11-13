@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        
+        .main
+        {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(245, 249, 246);
+    
+        }
+        .header img
+        {
+          width: 50px;
+          height: 35px;
+          border-radius: 10px;
+        }
+        
+        .header ul
+        {
+            
+            background-color: rgb(247, 245, 245);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            
+        }
+        .main .header ul  
+       {
+        background-color: rgb(249, 246, 246);
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+        
+    
+       }
+        .header ul li
+        {
+            text-decoration: none;
+            font-size: 17px;
+        
+        }
+        .header i
+        {
+           font-size: 30px;
+           margin-right: 100px;
+        }
+        .main .header input
+        {
+         border-radius:20px ;
+         border-color: rgba(0, 0, 0, 0.495);
+        
+        }
+        .main .header li
+        {
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .main .header a
+        {
+            text-decoration: none;
+
+        }
+        .main .container 
+        {
+            height: 10vh;
+            background-color: rgb(6, 53, 43);
+            display: flex;
+            text-align: center;
+            margin-top: 50px;
+            padding-right: 100px;
+
+           
+        }
+        .main .container p
+        {
+            color: rgb(252, 246, 246);
+            font-size: 22px;
+            margin-left: 100px;  
+        }
+        .main .container button
+        {
+            color: black;
+            font-size: 21px;
+            margin-left: 530px;  
+            margin-top: 20px;
+            border-radius: 20px;
+            height: 30px;
+            width: 120px;
+        }
+        
+        .main .one 
+        {
+            font-style: bold;
+            margin-left: 40px;
+        }
+        .main .card img
+        {
+            height: 16vh;
+            width: 8vw;
+            background-color: rgb(226, 43, 43);
+            border-radius: 150px;
+        
+            
+            
+        }
+        .main .two 
+        {
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+        .main .two p
+        {
+          text-align: center;
+          font-size: 17px;
+          font-weight: bold;
+        }
+        .main .three .card 
+        {
+            height:45vh;
+            width:95vw;
+            background-color: coral;
+            margin-left: 60px; 
+        }
+        
+        .three .card  p 
+        {
+            margin-left: 40vh;
+            padding-top: 30px;
+        }
+        .main .four h1 
+        {
+            margin-left: 40vh;
+            margin-top: 10px; 
+        }
+
+        .main .four p 
+        {
+            margin-left: 40vh;
+            margin-top: 20px; 
+            font-size:22px;
+        }
+        .thre
+        {
+         width: 92vw; 
+         height: 46vh;
+         background-color: tomato;
+         margin-left: 50px;
+         margin-top: 100px;
+         border-radius: 10px;
+        }
+
+       img 
+       {
+        height: 300px;
+        float: left; 
+        margin-right: 10px; 
+        }
+       .main .thre p
+        {
+        padding-top: 20px;
+        padding-left: 300px;
+        color: rgb(12, 12, 12);
+       }
+       .main .three .thre .four h4
+       {
+        color: rgba(0, 0, 0, 0.759);
+        margin-left: 300px;
+        font-size: 18px;
+       }
+       .main .three .thre .four h5
+       {
+        color: rgba(0, 0, 0, 0.834);
+       }
+       .main .three .thre .four h6
+       {
+        color: black;
+       }
+       .main .three .thre .four h1 
+       {
+        color: rgb(15, 15, 15);
+       }
+       
+        .main .thre .four button
+       {
+       display: inline;
+       float: right;
+       margin-right: 60px;
+       }
+       .main .three .thre .four h5
+       {
+         margin-top: 50px;
+       }
+       .main .three .thre .four button
+       {
+        
+            background-color: rgb(6, 245, 149);
+            border-radius: 20px;
+            height: 30px;
+            width: 130px;
+       }
+       .main .three a
+       {
+        text-decoration: none;
+       }
+
+        .main .car
+        {
+            
+            height: 62vh;
+            width: 25vw;
+            background-color: whitesmoke;
+            border-radius: 3px;
+            
+            
+            
+        }
+        .main .container1 .six h1
+        {
+        
+        margin-left: 50px;
+        }
+
+        .main .seven a
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            text-decoration: none;
+          
+    
+        }
+    
+        .main .seven .eight img
+        {
+            height: 30vh;
+            width: 24vw;
+        }
+        .main .seven .eight h2 
+        {
+            margin-left: 10px;
+
+        }
+        .main .seven .eight p
+        {
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 15px;
+            color: rgb(16, 16, 16);
+        }
+        .main .seven .eight 
+        {
+            margin-left: 10px;
+            color: rgb(14, 14, 14);
+
+        }
+        .main .seven .eight button
+        {
+          margin-left: 16vw;
+          border-radius: 20px;
+          height: 30px;
+          width: 100px;
+          color: rgb(251, 250, 250);
+          background-color: rgb(4, 113, 88);
+        }
+        .main .seven .nine img
+        {
+            height: 30vh;
+            width: 24vw;
+        }
+       
+        .main .seven .nine h2 
+        {
+            margin-left: 10px;
+        }
+        .main .seven .nine p
+        {
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 15px;
+            color: rgb(5, 5, 5);
+        }
+        .main .seven .nine
+        {
+            margin-left: 10px;
+            color: rgb(14, 14, 14);
+
+        }
+        .main .seven .nine button
+        {
+          margin-left: 16vw;
+          border-radius: 20px;
+          height: 30px;
+          width: 100px;
+          color: rgb(252, 250, 250);
+          background-color: rgb(4, 113, 88);
+        }
+        .main .seven .ten img
+        {
+            height: 30vh;
+            width: 24vw;
+        }
+        .main .seven .ten h2 
+        {
+            margin-left: 10px;
+        }
+        .main .seven .ten p
+        {
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 15px;
+            color: rgb(16, 16, 16);
+        }
+        .main .seven .ten
+        {
+            margin-left: 10px;
+            color: rgb(14, 14, 14);
+
+        }
+        .main .seven .ten button
+        {
+          margin-left: 16vw;
+          border-radius: 20px;
+          height: 30px;
+          width: 100px;
+          color: rgb(252, 250, 250);
+          background-color: rgb(4, 113, 88);
+        }
+        .main .b
+        {
+            margin-top: 80px;
+            height:40vh;
+            background-color:rgb(230,227, 222);
+        }
+        .main .b a 
+        {
+           display: flex;
+          justify-content: space-evenly;
+          text-decoration: none;
+          
+          
+        }
+         .main .b h4
+       {
+
+      
+         margin-right: 100px;
+         margin-top: 30px;
+         color:rgb(16, 188, 134);
+       }
+       .main .b h1
+       {
+        margin-right: 900px;
+        color: rgb(2, 38, 19);
+       }
+
+        
+        
+       .main a .c img
+      {
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+        margin-left: 30px;
+        border-radius: 10px;
+      }
+      .main a .c h3
+      {
+        margin-top: 50px;
+        color: black;
+      }
+
+
+
+        .main .b .c 
+        {
+            height: 22vh;
+            width: 30vw;
+            background-color: rgb(252, 252, 252);
+            
+            
+        }
+        .main a .c h4
+        {
+          margin-top: 55px;
+          margin-left: 35px;
+          color: black;
+        }
+        .main a .c button
+        {
+          margin-left: 90px;
+          height: 30px;
+          width: 100px;
+          color: rgb(252, 250, 250);
+          background-color: rgb(4, 113, 88);
+          border-radius: 20px;
+
+        }
+
+        
+
+        .main .app
+        {
+            height:80vh;
+            width: 100vw;
+            background-color: rgb(230, 227, 222);
+            margin-top: 50px;
+        }
+        .main .appp
+        {
+            color: rgb(10, 10, 10);
+            
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 10px;
+            margin-left: 80px;
+            margin-right: 150px;
+        }
+        .main .appp h4
+        {
+          color: rgb(16, 188, 131);
+        }
+        .main .app .cd img
+        {
+            height: 60vh;
+            width: 100vw;
+        }
+        .main .app .cd img:hover
+        {
+            background-color: black;
+        }
+        .main .app .cd 
+        {
+
+            background-image: url("../asserts/C_F_E_BLOG_WEB_5e2.jpg");
+            cursor: pointer;
+            height: 60vh;
+            width: 80vw;
+            background-size: cover;
+            padding-right: 50px;
+            margin-left: 80px;  
+        }
+        
+
+        .main .app .cd button 
+        {
+            margin-top: 20px;
+            margin-left: 80px;
+            border-radius: 5px;
+            color: rgb(4, 4, 4);
+        }
+        .main .app .cd a 
+        {
+            text-decoration: none;
+        }
+        .main .app .cd h1
+        { 
+            margin-left: 80px; 
+            margin-top: 28vh; 
+            color: rgb(2, 38, 19);
+        }
+        .main .app .cd p
+        {
+            margin-left:80px;  
+            color: white;
+            font-size: 17px;
+            font-family: "Roboto Thin";
+        }
+        .main .app .apppp button
+        {
+            background-color: rgb(252, 251, 251);
+            border-radius: 20px;
+            height: 30px;
+            width: 100px;
+            color: black;
+            
+        }
+        
+     
+    
+    
+    
+
+
+   
+    
+
+ .main1
+ {
+    height:80vh ;
+    width:100vw ;
+    background-color:rgb(1, 91, 53) ;
+ }
+
+ .main1 .foter 
+    {
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      margin-top: 0px;
+    }
+    .main1 .foter .start img
+    {
+      height: 70px;
+      width: 70px;
+      margin-top: 70px;
+    }
+  
+    .main1 .foter i
+    {
+    
+      margin-top: 10px;
+     
+    }
+    .main1 .foter .im i
+    {
+      height: 60px;
+      width: 30px;
+    }
+
+
+    .main1 .foter ul a
+    {
+      color: rgb(249, 254, 252);
+      text-decoration: none;
+    }
+    .main1 .foter ul
+    {
+      margin-top: 80px;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .main1 .foter li 
+    {
+        list-style-type: none;
+        margin-top: 20px;
+    
+        
+    }
+    .main1 .foter li a
+    {
+      text-decoration: none;
+      color: white;
+      font-weight: 300;
+      font-size: 16px;
+    }
+     .foter li a:hover
+    {
+        
+        color: rgba(0, 0, 0, 0.603);
+    }
+    .main1 .foter ul li
+    {
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .main1 .foter ul li i
+    {
+      
+      margin-left: 30px;
+    }
+    
+     .main1 .last ul li 
+     {
+      display: flex;
+      justify-content: center;
+      background-color: brown;
+     }
+
+    
+     .foter .last a
+    {
+      height: 10vh;
+      color: white;
+      text-decoration: none;
+      background-color: brown;
+      
+      
+    }
+    .main1 .last ul a
+    {
+      color: white;
+      text-decoration: none;
+      margin-left: 50px;
+    
+    }
+    .main1 .last hr
+   {
+    
+    margin-right: 70px;
+   }
+
+    .main1 .last
+   {
+  
+    padding-top: 80px;
+   }
+
+    .main1 .last ul a:hover
+    {
+      
+    color: rgba(0, 0, 0, 0.484);
+    }
+    .main1 .corner a
+    {
+      color: white;
+      margin-left: 1050px;
+      text-decoration: overline;
+      font-size: 10px;
+    
+      
+    }
+    .main1 .corner a:hover
+    {
+      color: black;
+    }
+    .main1 .foter .twoo .con img
+    {
+      margin-top: 70px;
+      border-radius: 20px;
+      background-color: rgb(6, 54, 45);
+      
+    }
+    .main1 .foter .twoo .cont img
+    {
+      margin-top: 10px;
+      border-radius: 20px;
+      background-color: rgb(6, 54, 45);
+
+    }
+    .main .main1 .foter a .con img
+    {
+        height: 50px;
+        width: 180px;
+        margin-right: 100px;
+    }
+
+    .main .main1 .foter a .cont img
+    {
+        height: 50px;
+        width: 180px;
+        margin-right: 100px;
+
+    }
+
+   .main .header ul  
+   {
+    background-color: rgb(249, 246, 246);
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    
+   }
+
+
+   .main .three .four h6
+   {
+    font-size: 16px;
+   }
+
+   .main .seven .eight img
+   {
+    background-color: brown;
+   }
+
+ 
+  
+
+ 
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <ul>
+                <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/starbucks_logo_icon_170704.png" alt="" onclick="">
+                <li><a href="">Home</a></li>
+                <li><a href="">Gift</a></li>
+                <li><a href="">Order</a></li>
+                <li><a href="">Pay</a></li>
+                <li><a href="">Store</a></li>
+                <input type="text" placeholder="Looking for something specific?" autofocus>
+                <i class="fa-regular fa-user"></i>
+                
+             </ul>
+
+        </div>
+        <div class="container">
+                
+                <p>Avail benefits! Sign upfor My Starbucks Rewards.</p>
+                <div class="bts">
+                    <button>Know More</button>
+                </div>
+              </div>
+              <div class="one">
+                <h1>Handcrafted curration</h1>
+              </div>
+
+               <div class="two">
+               <div class="card card1"><img src="../asserts/Bestseller11.jpg" alt=""></a>
+                 <p>Bestseller</p></div>
+               <div class="card card2"><img src="../asserts/Drinks22.jpg" alt="">
+                  <p>Drinks</p> </div>
+               <div class="card card3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRCVhPPTJVB1v4iUeTZqeWK1kbMPkFVy4tbA&usqp=CAU" alt="">
+                <p>Food</p></div>
+               <div class="card card4"> <img src="../asserts/Merchandise44.jpg" alt="">
+                <p>Merchandise</p></div>
+               <div class="card card5"><img src="../asserts/CoffeeAtHome55.jpg" alt="">
+               <p>Coffe At Home</p></div>
+               <div class="card card6"><img src="../asserts/ReadyToEat66.jpg" alt="">
+               <p>Ready to Eat</p></div>
+            
+            </div>
+              
+         <div class="three">
+            <a href="">
+            <div class="thre">
+                <img src="../asserts/eshu card.png" alt="">
+                <div class="text">
+                  <p>The Belaved Comeback of</p>
+                  <div class="four"> <h1> Pumpkin Spice Menu</h1>
+                    <h4> Experience the essence of autum with our best-selling star,now avalible as Frappuccino,Latte,and Nitro Brew! </h4>
+                    <h5>Starting From</h5>
+                    <h6>₹400</h6>
+                    <button>Order Now</button>
+                </div>
+              </div>
+            </div> 
+        </a>
+          </div>
+        <div class="container1">
+            <div class="six" >
+                <h1 > Latest Offerings </h1>
+            </div>
+         </div>
+    
+       <div class="seven">
+        <a href="">
+        <div class="car car1">
+            <div class="eight"><img src="../asserts/111.webp" alt="">
+                <h2>Pumpkin spice latte</h2>
+                <p>Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg and clove.</p>
+                <h3>₹441.75 </h3>
+                <button>Add Item</button>    
+            </div>
+        </div>
+        <div class="car car2">
+            <div class="nine">
+                <img src="../asserts/22.webp" alt="">
+                <h2>Iced Pumpkin Spice Latte</h2>
+                <p>Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg and clove.</p>
+                <h3>₹456.75 </h3>
+                <button>Add Item</button>    
+            </div>
+        </div>
+            
+        <div class="car car3">
+            <div class="ten">
+                <img src="../asserts/latest33.webp" alt="">
+                <h2>Pumpkin Spice Frappuccino</h2>
+                 <p> Coffee and milk blended with the celebrated flavor combination of pumpkin, cinnamon, nutmeg and clove served over ice.</p>
+                 <h3>₹483.00 </h3>
+                <button>Add Item</button> 
+
+            </div>
+        </div>
+     </a>
+       </div> 
+       <div class="b">
+        <a href="">
+        <h1>Barista Recommends </h1>
+        
+         <h4>View Menu</h4>
+        </a>
+        <div class="r">
+               <a href="">
+            
+                <div class="c c1">
+                  <img src="../asserts/straberry111.jpg" alt="">
+                  <h3>Strawberry Milkshake</h3>
+                  <h4> ₹ 367.50
+                  <button>Add Item</button></h4>
+                 
+                 
+                             
+                </div>
+                <div class="c c2">
+                  <img src="../asserts/stra222.jpg" alt="">
+                   <h3>Strawberry Milkshake</h3>
+                   <h4> ₹ 367.50
+                   <button>Add Item</button></h4>
+
+               </div>  
+        </a>
+        </div>
+        </div>
+       
+            <div class="app">
+                <div class="ap">
+                    <div class="appp">
+                
+                    <h2>Learn more about the world of coffee! </h2>
+                    <h4>Discover More</h4>
+                </div>   
+                 <div class="cd ca1">
+                    <a href="">
+                        <button>Coffe culture</button>
+                         
+                        <h1> Coffee with a Conscience </h1>
+                        <p>With quality and transparancy as its core ,the starbucks C.A.F.E programe is browing a sustainable coffee culture</p>
+                         <div class="apppp">
+                            <button>Learn More</button>              
+
+                         </div>
+
+
+
+
+                    </a>
+                  </div>  
+                </div>
+             </div>
+
+
+
+                           
+
+          
+            <div class="main1">
+                <div class="foter">
+                  <div class="start">
+                    <img src="../asserts/eswarlogo.png" alt="" >
+                  </div>
+                   
+                      <ul> <a href="">About Us </a>
+                          <li><a href="">Heritage</a></li>
+                          <li><a href=""> Coffeehouse </a></li>
+                          <li><a href="">Our Company </a></li>
+                      </ul>
+                        <ul><a href="">Responsiblity</a>
+                          <li><a href="">Community</a> </li>
+                              <li><a href="">Ethical Sourcing</a> </li>
+                              <li> <a href="">Environment</a></li>
+                              <li> <a href="">Diversity</a></li>
+                        </ul>
+                        <ul><a href="">Quick Links</a>
+                          <li><a href=""> Privacy Policy</a></li>
+                          <li><a href=""> Starbucks Rewards Day Offer</a></li>
+                          <li><a href="">Delivery</a></li>
+                          <li><a href="">Careers</a></li>
+                          <li><a href="">Customer Service</a></li>
+                          <li><a href="">FAQs</a></li>
+                          <li><a href="">Offer for Beverage Subscription at Starbucks.</a></li>
+                        </ul>
+                        <ul><a href="">SOCIAL MEDIA</a>
+                          <a href="">
+                            <div class="im">
+                              <i class="fa-brands fa-instagram"></i>
+                              <i class="fa-brands fa-square-facebook"></i>
+                              <i class="fa-brands fa-square-twitter"></i>
+                          </a>
+                        </ul>
+                        
+                        
+
+                        <div class="twoo">
+                            <a href="">
+                              <div class="con"><img src="../asserts/appstoreAndroid.png" alt="">
+                              </div>
+                                <div class="cont"><img src="../asserts/appstoreiOS.png" alt="" >
+                                </div>
+                                
+                                  
+                            </a>
+                              
+                        
+                         </div>        
+              
+                    
+                                                                          
+                </div>
+                           <div class="last">
+                            <ul>
+                              <hr>
+                              <a href="">Web Accessiblity &nbsp; &nbsp; &nbsp; &nbsp;|</a>
+                              <a href="">Privacy Statement &nbsp; &nbsp; &nbsp; &nbsp;|</a>
+                              <a href="">Terms of Use &nbsp; &nbsp; &nbsp; &nbsp;|</a>
+                              <a href="">Contact Us &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;|</a>
+                              <a href="">© 2023 Starbucks Coffee Company. All rights reserved.</a>
+            
+                              </div>
+                              
+            
+            
+                            </ul>
+                         
+
+                            
+            
+            </div>
+
+                   
+  
+        
+                                                              
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+            
+                 
+                
+                                                                      
+              
+                        
+                      
+                         
+        
+    
+          
+        
+        
+                                                                          
+        
+        
+        
+            
+   
+
+
+        
+  
+</div>
+
+</body>
+</html>
